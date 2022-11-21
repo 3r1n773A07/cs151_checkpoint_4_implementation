@@ -1,0 +1,17 @@
+
+"":
+  public:
+     data_officer:
+          id:
+            type: int
+            private_id: True
+          appointed_date:
+            type: datetime
+          race:
+            type: string
+     data_allegation:
+          crid:
+            type: int
+            private_id: True
+          incident_date: 
+            type: datetime
