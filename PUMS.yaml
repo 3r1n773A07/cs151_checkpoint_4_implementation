@@ -2,6 +2,7 @@
 "":
   public:
      data_officer:
+          censor_dims: False
           id:
             type: int
             private_id: True
@@ -10,6 +11,7 @@
           race:
             type: string
      data_allegation:
+          censor_dims: False
           crid:
             type: int
             private_id: True
